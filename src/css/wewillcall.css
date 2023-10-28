@@ -1,0 +1,257 @@
+.container-wewill {
+  padding: 0px 20px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.wewill-tittle {
+  max-width: 320px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.96px;
+
+  color: #141414;
+
+  text-align: center;
+
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wewill-text {
+  max-width: 320px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+
+  color: var(--primary-text-color);
+  text-align: center;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wewill-form {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.wewill-input {
+  width: 100%;
+  height: 48px;
+
+  border-radius: 100px;
+  border: 1px solid #141414;
+  opacity: 0.30000001192092896;
+
+  color: var(--primary-text-color);
+
+  padding-left: 24px;
+}
+
+.wewill-input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+
+  color: #c1bdbd;
+}
+
+.wewill-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  min-width: 105px;
+  height: 48px;
+
+  padding: 15px 35px;
+  align-items: center;
+
+  border-radius: 100px;
+  background: #fc8a11;
+  border: none;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+
+  color: #ffffff;
+
+  transition: background;
+  transition: var(--transition);
+}
+
+.wewill-button:focus,
+.wewill-button:hover {
+  background: var(--btn-hover-background-color);
+}
+
+.wewill-background {
+  width: 100%;
+  padding-top: 31px;
+
+  border-radius: 40px;
+  background: var(--background-item-in-modal);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../img/BG-mob.png);
+}
+
+.wewill-img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 375px) {
+  .container-wewill {
+    max-width: 375px;
+  }
+
+  .wewill-tittle {
+    display: block;
+  }
+  .wewill-text {
+    display: block;
+  }
+
+  .wewill-input {
+    width: 335px;
+  }
+  .wewill-background {
+    max-width: 335px;
+  }
+
+  .wewill-img {
+    max-width: 335px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-wewill {
+    max-width: 768px;
+    padding-bottom: 173px;
+  }
+
+  .wewill-tittle {
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    max-width: 524px;
+    margin-bottom: 20px;
+  }
+
+  .wewill-text {
+    margin: 0 auto;
+    font-size: 18px;
+
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+    max-width: 499px;
+    margin-bottom: 40px;
+  }
+
+  .wewill-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 80px;
+  }
+
+  .wewill-input {
+    width: 355px;
+  }
+
+  .wewill-button {
+    right: 20%;
+  }
+
+  .wewill-background {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    border-radius: 80px;
+    padding-top: 17px;
+
+    background-image: url(../img/BG-tablet.png);
+  }
+
+  .wewill-img {
+    max-width: 629px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-wewill {
+    max-width: 1280px;
+    padding-bottom: 124px;
+  }
+  .wewill-flex {
+    display: flex;
+    gap: 77px;
+    justify-content: space-between;
+  }
+
+  .wewill-flex-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    margin-right: 77px;
+  }
+
+  .wewill-tittle {
+    font-size: 48px;
+    max-width: 614px;
+
+    line-height: 1.04;
+    letter-spacing: -1.92px;
+    margin-bottom: 40px;
+    text-align: left;
+    padding: 0;
+  }
+
+  .wewill-text {
+    margin-bottom: 80px;
+    margin-left: 0;
+    text-align: left;
+    max-width: 523px;
+    padding: 0;
+  }
+
+  .wewill-form {
+    margin-bottom: 0;
+  }
+
+  .wewill-background {
+    width: 525px;
+    height: 536px;
+    padding-top: 37px;
+  }
+
+  .wewill-button {
+    right: 0;
+  }
+
+  .wewill-img {
+    max-width: 525px;
+  }
+}

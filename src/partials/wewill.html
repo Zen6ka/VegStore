@@ -1,0 +1,52 @@
+<section id="contact-me">
+  <div class="container-wewill wewill-flex">
+    <div class="wewill-flex-text">
+      <h2 class="wewill-tittle">FRESH HARVEST BOX HAS GOT YOU COVERED</h2>
+      <p class="wewill-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+      <form>
+        <div class="wewill-form">
+          <input
+            type="tel"
+            name="tel"
+            required
+            minlength="17"
+            maxlength="17"
+            placeholder="+380 ()"
+            class="wewill-input"
+            pattern="^\+\d{3}\(\d{2}\)\d{3}-\d{2}-\d{2}$"
+          />
+
+          <button type="submit" class="wewill-button">Recall</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="wewill-background">
+      <picture>
+        <source
+          srcset="./img/girl-desk-1x.png 1x, ./img/girl-desk-2x.png 2x"
+          media="(min-width: 1280px)"
+        />
+
+        <source
+          srcset="./img/girl-tab-1x.png 1x, ./img/girl-tab-2x.png 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="./img/girl-mob-1x.png 1x, ./img/girl-mob-2x.png 2x"
+          media="(max-width: 767px)"
+        />
+
+        <img
+          class="wewill-img"
+          src="./img/girl-desk-1x.png"
+          alt="girl with broccoli  "
+        />
+      </picture>
+    </div>
+  </div>
+</section>
